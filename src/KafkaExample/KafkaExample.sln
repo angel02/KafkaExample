@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaExample.Producer", "KafkaExample.Producer\KafkaExample.Producer.csproj", "{7B98B5A9-F86F-4E38-8224-B8F0169CFDE7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1DD997A6-B2DD-459F-9338-9E457D7AF992} = {1DD997A6-B2DD-459F-9338-9E457D7AF992}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaExample.Consumer", "KafkaExample.Consumer\KafkaExample.Consumer.csproj", "{4E2A8143-5A66-4774-89C6-EEFAF7C73B7B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1DD997A6-B2DD-459F-9338-9E457D7AF992} = {1DD997A6-B2DD-459F-9338-9E457D7AF992}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaExample.Shared", "KafkaExample.Shared\KafkaExample.Shared.csproj", "{1DD997A6-B2DD-459F-9338-9E457D7AF992}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B98B5A9-F86F-4E38-8224-B8F0169CFDE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B98B5A9-F86F-4E38-8224-B8F0169CFDE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B98B5A9-F86F-4E38-8224-B8F0169CFDE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B98B5A9-F86F-4E38-8224-B8F0169CFDE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E2A8143-5A66-4774-89C6-EEFAF7C73B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2A8143-5A66-4774-89C6-EEFAF7C73B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2A8143-5A66-4774-89C6-EEFAF7C73B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2A8143-5A66-4774-89C6-EEFAF7C73B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DD997A6-B2DD-459F-9338-9E457D7AF992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DD997A6-B2DD-459F-9338-9E457D7AF992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DD997A6-B2DD-459F-9338-9E457D7AF992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DD997A6-B2DD-459F-9338-9E457D7AF992}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B9FB8A9-91B5-4E28-B59A-13B1A2CD8632}
+	EndGlobalSection
+EndGlobal
